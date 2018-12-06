@@ -53,4 +53,4 @@ def hello():
 		return jsonify({1:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/1.png",2:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/2.png",3:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/3.png",4:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/4.png",5:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/5.png",6:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/6.png"}), 200
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run()

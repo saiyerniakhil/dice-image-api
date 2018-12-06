@@ -25,6 +25,6 @@ You can use any common way of making an api request
     "4": "https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/4.png",
     "5": "https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/5.png",
     "6": "https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/6.png"
-  }
+    }
     ```
 All the images were hosted on [cloudinary](www.cloudinary.com)

@@ -2,7 +2,7 @@
 A simple api made from to serve the faces of a dice in the form of images.
 
 ### API endpoint
-[saiyerniakhil.pythonanywhere.com]
+<saiyerniakhil.pythonanywhere.com>
 _please do note that both the images and the API is hosted on a free tier thus, low speeds (the images available might be improved in future)_ 
 
 ### How to use it?

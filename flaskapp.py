@@ -50,7 +50,13 @@ app = Flask(__name__)
 @app.route("/",methods=['GET','OPTIONS'])
 @crossdomain(origin='*')
 def hello():
-		return jsonify({1:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/1.png",2:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/2.png",3:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/3.png",4:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098990/4.png",5:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/5.png",6:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544098991/6.png"}), 200
+		def hello():
+		return jsonify({1:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/1.png",
+		2:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265408/2.png",
+		3:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/3.png",
+		4:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/4.png",
+		5:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/5.png",
+		6:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/6.png"}), 200
 
 if __name__ == '__main__':
 	app.run(debug=True)

@@ -59,4 +59,4 @@ def hello():
 		6:"https://res.cloudinary.com/dibjkdnch/image/upload/v1544265227/6.png"}), 200
 
 if __name__ == '__main__':
-	app.run(debug=True)
+	app.run()
